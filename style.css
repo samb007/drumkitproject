@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+body{
+    background-image: url(../images/bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#drumSounds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 400px 150px;
+    text-align: center;
+
+}
+
+#clap, #hihat, #kick, #openhat, #boom, #ride, #snare, #tom, #tink{
+    padding: 0px 30px;
+    background: rgb(199, 199, 199); 
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 10px 10px 5px;
+    
+    
+}
+#clap:hover, #hihat:hover, #kick:hover, #openhat:hover, #boom:hover, #ride:hover, #snare:hover, #tom:hover, #tink:hover{
+    transform: scale(1.2);
+    filter: invert(1);
+    
+}
+
